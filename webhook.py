@@ -5,7 +5,7 @@ webhook_url = os.environ.get('WEBHOOK_URL')
 
 modo_role_id = '<@&959138938784727060>'
 
-builder_role_id = '<@959156812005900400>'
+builder_role_id = '<@&959156812005900400>'
 
 def send_webhook(message):
     message = message.replace('@Modo', modo_role_id)
